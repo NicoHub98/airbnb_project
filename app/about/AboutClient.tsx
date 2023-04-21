@@ -35,7 +35,11 @@ const AboutClient = () => {
           </li>
         </ul>
         <Heading
-          title={`${isEnglish ? "About" : "Acerca de"}`}
+          title={`${
+            isEnglish
+              ? "About me, Nicolás Ludueño"
+              : "Sobre mi, Nicolás Ludueño"
+          }`}
           subTitle={`${
             isEnglish
               ? "Some things about my experience building this site"
