@@ -75,11 +75,15 @@ const UserMenu: React.FC<userMenuProps> = ({ currentUser }) => {
                 <MenuItem onClick={rentModal.onOpen} label="Airbnb my home" />
                 <hr />
                 <MenuItem onClick={() => signOut()} label="Logout" />
+                {/* <hr /> */}
+                <MenuItem onClick={() => router.push("/about")} label="About" />
               </>
             ) : (
               <>
                 <MenuItem onClick={loginModal.onOpen} label="Login" />
                 <MenuItem onClick={registerModal.onOpen} label="Sign Up" />
+                {/* <hr />
+                <MenuItem onClick={() => router.push("/about")} label="About" /> */}
               </>
             )}
           </div>
