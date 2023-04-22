@@ -55,7 +55,7 @@ const LoginModal = () => {
       <Heading title="Welcome back" subTitle="Login to your account!" />
       <Input
         id="email"
-        label="Email"
+        label="Email (test@mail.com)"
         disabled={isLoading}
         register={register}
         errors={errors}
@@ -64,7 +64,7 @@ const LoginModal = () => {
       <Input
         id="password"
         type="password"
-        label="Password"
+        label="Password (test)"
         disabled={isLoading}
         register={register}
         errors={errors}
